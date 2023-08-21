@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Kelas7Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnBack7toHome"
+                android:layout_width="46dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_back" />
+
+
+            <TextView
+                android:id="@+id/tvJudulKelas7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Daftar Buku Kelas 7" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        <Button
+            android:id="@+id/btnAgama713"
+            android:layout_height="wrap_content"
+            android:layout_width="273dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:backgroundTint="#2596be"
+            android:layout_marginTop="15dp"
+            android:text="Pendidikan Agama Islam" />
+
+
+<!--        android:backgroundTint="#2596be"-->
+        <Button
+            android:id="@+id/btnPKN713"
+            android:layout_width="273dp"
+            android:layout_gravity="center"
+        android:textColor="@color/black"
+            android:backgroundTint="#2596be"
+            android:layout_height="wrap_content"
+            android:text="PKN" />
+
+        <Button
+            android:id="@+id/btnBhsIndo713"
+            android:layout_width="273dp"
+            android:layout_gravity="center"
+        android:textColor="@color/black"
+            android:backgroundTint="#2596be"
+            android:layout_height="wrap_content"
+            android:text="Bahasa Indonesia" />
+
+        <Button
+            android:id="@+id/btnMTK7S113"
+            android:layout_width="273dp"
+            android:layout_gravity="center"
+        android:textColor="@color/black"
+            android:backgroundTint="#2596be"
+            android:layout_height="wrap_content"
+            android:text="MATEMATIKA" />
+
+
+        <Button
+            android:id="@+id/btnIPA7S113"
+            android:layout_width="273dp"
+            android:layout_gravity="center"
+        android:textColor="@color/black"
+            android:backgroundTint="#2596be"
+            android:layout_height="wrap_content"
+            android:text="IPA" />
+
+        <Button
+            android:id="@+id/btnIPS713"
+            android:layout_width="273dp"
+            android:layout_gravity="center"
+        android:textColor="@color/black"
+            android:backgroundTint="#2596be"
+            android:layout_height="wrap_content"
+            android:text="IPS" />
+
+        <Button
+            android:id="@+id/btnPenjaskes713"
+            android:layout_width="273dp"
+            android:layout_gravity="center"
+        android:textColor="@color/black"
+            android:backgroundTint="#2596be"
+            android:layout_height="wrap_content"
+            android:text="Penjaskes" />
+
+        <Button
+            android:id="@+id/btnBhsIng713"
+            android:layout_width="273dp"
+            android:layout_gravity="center"
+        android:textColor="@color/black"
+            android:backgroundTint="#2596be"
+            android:layout_height="wrap_content"
+            android:text="Bahasa Inggris" />
+
+        <Button
+            android:id="@+id/btnIT713"
+            android:layout_width="273dp"
+            android:layout_gravity="center"
+        android:textColor="@color/black"
+            android:backgroundTint="#2596be"
+            android:layout_height="wrap_content"
+            android:text="Informatika" />
+
+        <Button
+            android:id="@+id/btnPrakarya7S113"
+            android:layout_width="273dp"
+            android:layout_gravity="center"
+        android:textColor="@color/black"
+            android:backgroundTint="#2596be"
+            android:layout_height="wrap_content"
+            android:text="Prakarya" />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
